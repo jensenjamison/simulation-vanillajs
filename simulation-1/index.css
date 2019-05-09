@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+
+}
+
+.container1 {
+    background-color: #424249;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-family:'Righteous', cursive;
+     
+}
+    
+h3 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 6vh;
+}
+
+.box1 {
+    background-color: #EFE8E1;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    
+}
+
+.insideBox1 {
+    font-size: 25px;
+    text-align: center;
+    font-family:'Righteous', cursive;
+
+}
+
+.box2 {
+    background-color: #54D2E5;
+    height: 270px;
+    width: 400px;
+    border-radius: 5px;
+    
+}
+
+.insideBox2 {
+    font-family:'Righteous', cursive;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 25px; 
+}
+
+#nameAmount {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-left: 25px;
+    
+}
+
+.buttonAdd {
+    color: white;
+    font-size: 25px;
+    font-family:'Righteous', cursive;
+    background-color: #424249;
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    margin-top: 40px
+}
