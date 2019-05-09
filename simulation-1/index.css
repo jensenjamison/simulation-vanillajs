@@ -40,11 +40,18 @@ h3 {
     
 }
 
+
 .insideBox1 {
     font-size: 25px;
     text-align: center;
     font-family:'Righteous', cursive;
+    
+}
 
+#list {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .box2 {

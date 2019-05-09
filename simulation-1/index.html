@@ -24,16 +24,30 @@
 <div class="container2">
     <a class="box1">
         <P class="insideBox1">Monthly Expenses</P>
+        <p id="list"></p>
     </a>
     <a class="box2">
         <p class="insideBox2">Add Bill 
             <form id="nameAmount" action="/action_page.php">
-                Name: <input type="text" name="name" value="bread"><br>
-                Amount: <input type="number" amount="money" value="100"><br><br>             
+                Name: <input type="text" name="name" value=""><br>
+                Amount: <input type="number" amount="money" value=""><br><br>             
 
-                <button class="buttonAdd" onclick="myFunction()">Add</button>
-                
             </form> 
+                
+            <button class="buttonAdd" onclick="myFunction()">Add</button>
+            
+
+    <!-- <script>
+        function myFunction() {
+        var x = document.forms["nameAmount"];
+        var text = "";
+        var i;
+        for (i = 0; i < x.length ;i++) {
+        text += x.elements[i].value + "<br>";
+  }
+        document.getElementById("list").innerHTML = text;
+}
+</script> -->
         </p>
     </a>
 </div>
